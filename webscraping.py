@@ -38,13 +38,8 @@ agent_map = {
     'yoru': 24
 }
 
-# I need an object to store every player object I create while scraping the data, so that I can access the player objects later--there also needs to be no duplicates in this object and I need to be able to access the player objects by their name
 all_players = {}
 
-
-#make a map in python
-
-#player_map = {}
 
 def calculate_team_b_odds(odds_team_b):
     # Convert overround to a decimal
